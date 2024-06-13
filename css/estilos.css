@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav{
+    background: rgba(0, 0, 0, 0);
+}
+
+header{
+    background-image: url(../img/torre_eiffel.jpg);
+    height: 50em;
+    background-size: cover;
+}
+
+nav .fila{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 3em;
+    text-align: center;
+}
+
+nav .col1{
+    width: 29%;
+    display: inline-block;
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+nav .col-nav{
+    width: 70%;
+    display: inline-block;
+}
+
+nav ul li{
+    color: white;
+    display: inline-block;
+    margin-right: 2em;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+#menu div a{
+    color: white;
+    text-decoration: none;
+}
+
+#menu{
+    margin-top: 8em;
+    margin-left: 7em;
+}
+
+.boton1{
+    color: white;
+    background: red;
+    display: inline-block;
+    padding: 1em;
+
+}
+
+.boton2, .boton3, .boton4{
+    color: white;
+    display: inline-block;
+    background: rgb(81, 81, 81);
+    padding: 1em;
+}
+
+#cuerpo .col{
+    display: inline-block;
+}
+
+#cuerpo .col p{
+    display: inline-block;
+}
+
+#cuerpo{
+    background: white;
+    box-shadow: 0px -2px 1px 2px red ;
+    width: 60%;
+}
+
+#cuerpo .col{
+    width: 42%;
+    margin: 1em;
+}
+
+#cuerpo .izq{
+    text-align: right;
+}
+
+.rojo{
+    background: red;
+    color: white;
+    padding: 0.2em;
+}
+
+.gris{
+    background: gray;
+    color: white;
+    padding: 0.2em;
+}
+
+#cuerpo .col2{
+    width: 23%;
+    display: inline-block;
+    margin: 1em;
+}
+
+.formulario{
+    display: block;
+    padding: 0.5em;
+}
+
+.boton{
+    background: red;
+    color: white;
+}
+
+#formulario_completo{
+    margin: 10em;
+}
+
+#logos{
+    padding: 4em;
+    margin: 0 auto;
+    background: whitesmoke;
+}
+
+#logos .col{
+    width: 24%;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+}
+
+.logo{
+    font-size: 1.8em;
+}
+
+#paisajes .fila{
+    margin: 4em 0;
+    text-align: center;
+}
+
+img{
+    max-width: 100%;
+}
+
+#paisajes img{
+    margin-left: 1em;
+    width: 22%;
+    display: inline-block;
+}
+
+#mapa .mundi{
+    width: 55%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#mapa .noticia{
+    width: 42%;
+    display: inline-block;
+    margin: 0.5em;
+}
+
+#mapa .destinos{
+    margin: 1em;
+    margin-bottom: 2em;
+}
+
+#mapa .imag{
+    width: 10%;
+    margin-left: 1em;
+    margin-bottom: 1em;
+}
+
+#mapa .viaje, .texto{
+    display: inline-block;
+    vertical-align: top;
+    margin: 0.5em;
+}
+
+footer{
+    background: rgb(70, 69, 69);
+    color: white;
+    text-align: center;
+    padding: 1em ;
+}
+
+footer a{
+    color: white;
+}
